@@ -1,0 +1,78 @@
+.element {
+   
+    position: relative;
+}
+
+
+ .element::after {
+    content: '';
+    width: 15%; 
+   height: 100%; 
+   background-size: cover;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../public/assests/bg1.png');
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:0;
+   
+  
+    
+
+}
+
+.element::before {
+    content: '';
+    width: 15%; 
+   height: 100%; 
+   
+  background-repeat: no-repeat;
+  background-image: url('../../public/assests/bg2.png');
+    position: absolute;
+    top:0;
+    left:0;
+   
+  
+    
+
+}
+
+.element2 {
+    position: relative;
+}
+
+.element2::after {
+    content: '';
+    width: 5%; 
+   height: 100%; 
+   background-size: cover;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../public/assests/bg1.png');
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:0;
+   
+  
+    
+
+}
+
+.element2::before {
+    content: '';
+    width:5%; 
+   height: 100%; 
+   
+  background-repeat: no-repeat;
+  background-image: url('../../public/assests/Vector5.png');
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:0;
+   
+  
+    
+
+}
